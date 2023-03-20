@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>net salary calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NET SALARY CALCULATOR</h1>
+<br>
+<br>
+
+    <div>
+<form>
+    <label for="basicSalary">Basic Salary:</label>
+    <input type="text" id="basicSalary" name="basicSalary"><br><br>
+    
+    <label for="benefits">Benefits:</label>
+    <input type="text" id="benefits" name="benefits"><br><br>
+
+
+    <br>
+    <br>
+    
+    <button type="button" onclick="calculate()">Calculate</button><br><br>
+    
+    <label for="payeeTax">Payee Tax:</label>
+    <input type="number" id="payeeTax" name="payeeTax" readonly><br><br>
+    
+    <label for="nhifDeduction">NHIF Deduction:</label>
+    <input type="number" id="nhifDeduction" name="nhifDeduction" readonly><br><br>
+    
+    <label for="nssfDeduction">NSSF Deduction:</label>
+    <input type="number" id="nssfDeduction" name="nssfDeduction" readonly><br><br>
+    
+    <label for="netSalary">Net Salary:</label>
+    <input type="number" id="netSalary" name="netSalary" readonly>
+
+    </form>
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
